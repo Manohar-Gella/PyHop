@@ -12,15 +12,20 @@ def generate_random_5_digit_number():
 
 def ticket(name, age, nseats):
     print(f"Name of the passenger {name.upper()}")
+    time.sleep(1)
     print(f"Age of the passenger {age}")
+    time.sleep(1)
     print(f"Allotted seat number {nseats}")
+    time.sleep(1)
     print("Happy journey")
+    time.sleep(1)
     print("Ticket number")
     random_number = generate_random_5_digit_number()
     print(random_number)
 
 def main():
     while True:
+        print("_____________________________________________________________________________________________________________________________________________________________________")
         print("Railway Seat Reservation Portal")
         name = input("Name of the passenger: ")
         age = int(input("Enter age: "))
